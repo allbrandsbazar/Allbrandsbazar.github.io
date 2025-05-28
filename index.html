@@ -2,11 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <header>
-  <img src="logo.png" alt="ALL BRANDS BAZAR" style="height: 60px; vertical-align: middle;">
-  <span style="font-size: 1.5em; font-weight: bold; margin-left: 10px;">ALL BRANDS BAZAR</span>
-  </header>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ALL BRANDS BAZAR</title>
   <style>
     body {
       margin: 0;
@@ -21,52 +18,39 @@
       font-size: 2em;
       font-weight: bold;
       border-bottom: 2px solid #ffd700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    header img {
+      height: 60px;
     }
     nav {
       display: flex;
       justify-content: center;
       gap: 20px;
-      padding: 15px;
-      background-color: #111;
+      margin: 20px 0;
     }
     nav a {
       color: #ffd700;
       text-decoration: none;
       font-weight: bold;
     }
-    nav a:hover {
-      text-decoration: underline;
-    }
     section {
       padding: 40px 20px;
       text-align: center;
-    }
-    h2 {
-      font-size: 1.8em;
-      margin-bottom: 20px;
-      border-bottom: 2px solid #ffd700;
-      display: inline-block;
-      padding-bottom: 10px;
     }
     .products {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 20px;
-      padding: 20px 0;
+      padding: 20px;
     }
     .product {
       background-color: #222;
       border: 1px solid #ffd700;
       padding: 20px;
-      border-radius: 10px;
-      transition: transform 0.3s ease;
-    }
-    .product:hover {
-      transform: scale(1.05);
-    }
-    .product img {
-      width: 100%;
-      height: auto;
       border-radius: 10px;
     }
     footer {
@@ -75,17 +59,14 @@
       padding: 20px;
       font-size: 0.9em;
       border-top: 2px solid #ffd700;
-      margin-top: 40px;
-    }
-    @media (max-width: 600px) {
-      header {
-        font-size: 1.5em;
-      }
     }
   </style>
 </head>
 <body>
-  <header>ALL BRANDS BAZAR</header>
+  <header>
+    <img src="A_logo_for_&quot;ALL_BRANDS_BAZAR&quot;_is_set_against_a_sol.png" alt="ALL BRANDS BAZAR">
+    <span>ALL BRANDS BAZAR</span>
+  </header>
   <nav>
     <a href="#men">Men</a>
     <a href="#women">Women</a>
@@ -96,15 +77,13 @@
     <h2>Men's Collection</h2>
     <div class="products">
       <div class="product">
-        <img src="https://via.placeholder.com/200x250?text=Men+T-Shirt" alt="Men's T-Shirt">
         <h3>Men's T-Shirt</h3>
         <p>Comfortable black cotton t-shirt with gold logo.</p>
         <p><strong>$20</strong></p>
       </div>
       <div class="product">
-        <img src="https://via.placeholder.com/200x250?text=Men+Hoodie" alt="Men's Hoodie">
         <h3>Men's Hoodie</h3>
-        <p>Warm hoodie perfect for cool evenings.</p>
+        <p>Warm hoodie with premium embroidery.</p>
         <p><strong>$35</strong></p>
       </div>
     </div>
@@ -113,4 +92,26 @@
   <section id="women">
     <h2>Women's Collection</h2>
     <div class="products">
-      <div class="
+      <div class="product">
+        <h3>Women's Top</h3>
+        <p>Stylish and comfortable black top with gold print.</p>
+        <p><strong>$18</strong></p>
+      </div>
+      <div class="product">
+        <h3>Women's Leggings</h3>
+        <p>Flexible and durable sports leggings.</p>
+        <p><strong>$25</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>For orders and inquiries, message us on Instagram or WhatsApp.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 ALL BRANDS BAZAR. All rights reserved.
+  </footer>
+</body>
+</html>
